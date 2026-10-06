@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.Theme.AdvancedToDoList" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+</resources>
