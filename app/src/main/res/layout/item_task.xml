@@ -48,12 +48,14 @@
                 android:textColor="@color/gray" />
         </LinearLayout>
 
-        <Button
+        <ImageButton
             android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="X"
-            android:textSize="14sp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/delete_icon"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:contentDescription="Usuń zadanie" />
 
     </LinearLayout>
 

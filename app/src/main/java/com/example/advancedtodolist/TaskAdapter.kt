@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
@@ -18,7 +19,7 @@ class TaskAdapter(
         val tvTitle: TextView = itemView.findViewById(R.id.tvTitle)
         val tvCategory: TextView = itemView.findViewById(R.id.tvCategory)
         val colorBar: View = itemView.findViewById(R.id.colorBar)
-        val btnDelete: Button = itemView.findViewById(R.id.btnDelete)
+        val btnDelete: ImageButton = itemView.findViewById(R.id.btnDelete)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskViewHolder {
@@ -51,7 +52,7 @@ class TaskAdapter(
                 notifyItemRangeChanged(pos, taskList.size)
                 Toast.makeText(
                     holder.itemView.context,
-                    "Usunieto: $deletedTitle",
+                    "Usunięto: $deletedTitle",
                     Toast.LENGTH_SHORT
                 ).show()
                 onListChanged()

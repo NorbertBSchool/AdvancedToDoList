@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Menedzer Zadan</string>
-    <string name="advanced_to_do_list">Advanced TO DO list</string>
+    <string name="advanced_to_do_list">Advanced TODO list</string>
     <string name="wpisz_nazwe_zadania">Wpisz nazwe zadania...</string>
     <string name="dodaj_zadanie">Dodaj zadanie</string>
     <string name="liczba_zadan_2">Liczba zadan: 2</string>
